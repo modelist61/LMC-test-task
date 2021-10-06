@@ -56,40 +56,12 @@ struct ContentView: View {
             showLoading.toggle()
         }
     }
-    
-    //        TabView {
-    //                ReviewsNavigationView(reviews: reviews, refreshable: refreshable)
-    //                    .onAppear {
-    //                        reviews.fetchReview()
-    //                    }
-    //                .tabItem {
-    //                    VStack {
-    //                        Image("TabViewImage1")
-    //                        Text("Reviews")
-    //                            .font(.title)
-    //                            .foregroundColor(.red)
-    //                    }
-    //                }
-    //
-    //            VStack {
-    //                CriticsNavigationView(reviews: reviews, refreshable: refreshable)
-    //
-    //            }.tabItem {
-    //                VStack {
-    //                    Image("TabViewImage2")
-    //                    Text("Critics")
-    //                }
-    //            }
-    //
-    //        }.accentColor(Color("orange"))
-    //    }
 }
 
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(viewRouter: ViewRouter())
-        
     }
 }
 
